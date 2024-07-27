@@ -17,12 +17,20 @@ Make sure to have the following before starting:
    ```
    pip3 install google-generativeai
    ```
+     - langchain-google-genai
+   ```
+   pip3 install langchain-google-genai
+   ```
 2. API Key:
         After getting the API key from the Gemini API website, add them in a `.env` file.
    ```
-   API_KEY=<ENTER_YOUR_API_KEY>
+   GOOGLE_API_KEY=<ENTER_YOUR_API_KEY>
    ```
    
 > [!CAUTION]
 > Do not checkin the `.env` file or expose them to public as it has the API Key.
 
+To check whether Gemini API is working, you can run the curl coommand as given when creating the key or you can run this `test_api.py`:
+```
+python3 test_api.py
+```
