@@ -42,3 +42,8 @@ To check whether Gemini API is working, you can run the curl coommand as given w
 ```
 python3 test_api.py
 ```
+## Short Demo
+
+
+https://github.com/user-attachments/assets/3e0f0d7e-446d-4e51-a4df-80586e53e491
+
