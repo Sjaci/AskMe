@@ -21,6 +21,14 @@ Make sure to have the following before starting:
    ```
    pip3 install langchain-google-genai
    ```
+     - langchain-community
+   ```
+   pip3 install langchain-community
+   ```
+     - [pyboxen](https://github.com/savioxavier/pyboxen)
+   ```
+   pip3 install pyboxen
+   ```
 2. API Key:
         After getting the API key from the Gemini API website, add them in a `.env` file.
    ```
